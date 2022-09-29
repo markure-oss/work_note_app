@@ -1,0 +1,11 @@
+- lấy giá trị từ text-input bằng cách lưu trữ nó dưới dạng state(trạng thái)
+
+-với chuỗi đầu vào thì useState = ('') -. là 1 chuối trống
+
+-với danh sách cập nhật linh hoạt ra màn hình thì useState = ([ ]) -> là 1 mảng trống
+
+
+-ScrollView -> giúp cuộn màn hình
+
+-> để tránh giảm hiệu năng khi cuộn 1 danh sách khá dài-> nên dùng FlatList -> chỉ cuộn nhưng items nằm trong màn hình,
+những items nằm ngoài màn hình sẽ được cuộn 1 cách chậm cạp hơn giúp tăng hiệu năng
